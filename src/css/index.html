@@ -92,7 +92,7 @@
 
     <!-- Other Products -->
     <div class="product">
-        <div class="products">
+        <div class="products" onclick="goToSite('product1.html')">
             <div class="pimg">
                 <img src="https://payhip.com/cdn-cgi/image/format=auto/https://pe56d.s3.amazonaws.com/o_1h9simf9hiqj1t9l1lb9cmp23f10.png">
             </div>
@@ -102,7 +102,7 @@
                 <span style="color: #41b770; font-weight: 600; font-size: 1rem;">ON SALE</span>
             </div>
         </div>
-        <div class="products">
+        <div class="products" onclick="goToSite('product2.html')">
             <div class="pimg">
                 <img src="https://payhip.com/cdn-cgi/image/format=auto/https://pe56d.s3.amazonaws.com/o_1hgve53ih1gmi1nl81h2do1dhfsu.png">
             </div>
@@ -112,7 +112,7 @@
                 <span style="color: #41b770; font-weight: 600; font-size: 1rem;">ON SALE</span>
             </div>
         </div>
-        <div class="products">
+        <div class="products" onclick="goToSite('product3.html')">
             <div class="pimg">
                 <img src="https://payhip.com/cdn-cgi/image/format=auto/https://pe56d.s3.amazonaws.com/o_1hgvdnmo710r510ss7ss1a9dpq3r.png">
             </div>
@@ -140,5 +140,12 @@
     <footer>
         <p>Powered by <span style="color: #41b770;">Payhip</span> <i class="fa-solid fa-caret-down" style="color: #41b770;"></i></p>
     </footer>
+
+    <!-- Link to go to the products -->
+    <script>
+        function goToSite(url) {
+            window.location.href = url;
+        }
+    </script>
 </body>
 </html>
