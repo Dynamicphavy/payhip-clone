@@ -1,0 +1,10 @@
+Process 1:
+    ✔ Frontend Interface @done(25-05-31 14:58)
+    ✔ Buying Interface @started(25-06-08 14:06) @done(25-06-08 14:33) @lasted(27m29s)
+
+Query:
+    [] Media query Frontend Interface
+    [] Media query Buying Interface
+
+Backend:
+    [] Backend for clicking each product

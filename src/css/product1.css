@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Urbanist", sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav h1 {
+    color: #fff;
+    font-size: 2rem;
+}
+
+menu {
+    display: none;
+}
+
+.pf {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+
+.pf img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icons {
+    width: 150px;
+    height: 50px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.icns {
+    width: 30px;
+    height: 30px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icns i {
+    color: #fff;
+}
+
+.tab {
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    width: 200px;
+    height: 30px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.link li {
+    list-style: none;
+}
+
+.link a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Pinned product */
+.pin {
+    width: 100%;
+    height: 900px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.pins {
+    width: 650px;
+    height: 850px;
+    /* background-color: blue; */
+    color: #fff;
+}
+
+.pins1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.im {
+    width: 650px;
+    height: 600px;
+    background-color: green;
+}
+
+.im img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pins .btn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pins .btn button {
+    width: 450px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+}
+
+.txt {
+    width: 650px;
+    height: 100px;
+}
+
+.txt ul {
+    padding: 10px;
+}
+
+.end .btn {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.end .btn button {
+    width: 100px;
+    height: 20px;
+}
+
+/* Other Products */
+.product {
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.products {
+    width: 400px;
+    height: 450px;
+    cursor: pointer;
+    /* background-color: blue; */
+}
+
+.pimg {
+    width: 400px;
+    height: 350px;
+    /* background-color: green; */
+}
+
+.pimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tx {
+    margin-top: 5px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* About */
+.about {
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.abt {
+    width: 700px;
+    height: 200px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    color: #fff;
+}
+
+.abt h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.abt p {
+    font-weight: 500;
+}
+
+.abt button {
+    width: 120px;
+    height: 40px;
+    border-radius: 100px;
+    border: none;
+    background-color: #41b770;
+    color: #fff;
+}
+
+.abt1 {
+    width: 200px;
+    height: 200px;
+    /* background-color: blue; */
+}
+
+.abt1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 500px;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
