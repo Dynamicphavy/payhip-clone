@@ -20,7 +20,7 @@ nav {
 }
 
 nav h1 {
-    color: #fff;
+    color: #000;
     font-size: 2rem;
 }
 
@@ -108,7 +108,7 @@ menu {
 /* Pinned product */
 .pin {
     width: 100%;
-    /* height: 850px; */
+    height: 850px;
     /* background-color: red; */
     display: flex;
     flex-direction: row;
@@ -119,7 +119,7 @@ menu {
 
 .pins {
     width: 650px;
-    /* height: 850px; */
+    height: 850px;
     /* background-color: blue; */
     color: #fff;
 }
@@ -181,7 +181,7 @@ menu {
 /* Other Products */
 .product {
     width: 100%;
-
+    height: 500px;
     /* background-color: red; */
     display: flex;
     flex-direction: row;
@@ -280,70 +280,4 @@ footer {
     justify-content: center;
     align-items: center;
     color: #fff;
-}
-
-@media screen and (max-width:768px) {
-    .tab {
-        display: none;
-    }
-
-    nav h1 {
-        display: none;
-    }
-
-    .bar {
-        display: flex;
-    }
-
-    /* Pinned Product */
-    .pin {
-        flex-direction: column;;
-    }
-
-    .im {
-        width: 90%;
-        height: 400px;
-    }
-
-    .pins1 {
-        width: 90%;
-    }
-
-    .txt {
-        width: 550px;
-    }
-
-    .pins1 .btn button {
-        width: 350px;
-    }
-
-    /* Other Products */
-    .product {
-        flex-direction: column;
-    }
-
-    .products {
-        width: 350px;
-        height: auto;
-        margin-bottom: 20px;
-    }
-    /* About */
-    .about {
-        flex-direction: column;
-    }
-
-    .abt {
-        width: 100%;
-        height: auto;
-        padding: 20px;
-        align-items: center;
-    }
-
-    .abt h3 {
-        text-align: center;
-    }
-
-    .abt p {
-        text-align: center;
-    }
 }
