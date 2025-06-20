@@ -1,9 +1,9 @@
 Process 1:
-    ✔ Frontend Interface @done(25-05-31 14:58)
-    ✔ Buying Interface @started(25-06-08 14:06) @done(25-06-08 14:33) @lasted(27m29s)
+    ✔ Frontend Interface
+    ✔ Buying Interface
 
 Query:
-    [] Media query Frontend Interface @started(25-06-17 12:36)
+    ✔ Media query Frontend Interface
     [] Media query Buying Interface
 
 Backend:
