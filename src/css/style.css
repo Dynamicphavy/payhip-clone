@@ -284,6 +284,10 @@ footer {
 }
 
 @media screen and (max-width:768px) {
+    nav h1 {
+        color: #000;
+    }
+
     /* Tab */
     .tab {
         display: none;

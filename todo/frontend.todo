@@ -4,7 +4,7 @@ Process 1:
 
 Query:
     ✔ Media query Frontend Interface
-    [] Media query Buying Interface
+    ✔ Media query Buying Interface
 
 Backend:
-    [] Backend for clicking each product
+    ✔ Backend for clicking each product
