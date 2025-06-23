@@ -10,8 +10,18 @@
 <body>
     <nav>
         <menu>
-            <li><a href="">Login</a></li>
-        </menu>
+        <div class="menu" id="Menu">
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="bar" id="Bar">
+            <div class="bars"></div>
+            <div class="bars"></div>
+            <div class="bars"></div>
+        </div>
         <h1>DPHAVY4</h1>
         <div class="pf">
             <img src="/src/img/pfp.jpeg" alt="">
@@ -91,7 +101,17 @@
 
     <!-- Footer -->
     <footer>
-        <p>Powered by <span style="color: #41b770;">Payhip</span> <i class="fa-solid fa-chevron-down" style="color: #41b770;"></i></i></p>
+        <p>Powered by <u><span style="color: #41b770;">Payhip</span></u> <i class="fa-solid fa-chevron-down" style="color: #41b770;"></i></i></p>
     </footer>
+
+    <!-- Sidebar Toggle -->
+    <script>
+        const Bar = document.getElementById("Bar");
+        const Menue = document.getElementById("Menu");
+
+        Bar.addEventListener("click", () => {
+            Menue.classList.toggle("hidden");
+        });
+    </script>
 </body>
 </html>
