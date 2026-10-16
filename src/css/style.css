@@ -182,6 +182,7 @@ nav h1 {
 .end .btn button {
     width: 100px;
     height: 20px;
+    cursor: pointer;
 }
 
 /* Other Products */
